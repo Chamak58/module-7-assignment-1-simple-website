@@ -5,7 +5,7 @@ body{
     font-family: serif;
 }
 header{
-    /* display: none; */
+    display: none;
 }
 nav{
     display: flex;
@@ -69,7 +69,7 @@ nav{
     padding: 20px 60px;
     background: lightgreen;
     border-radius: 5px;
-    /* display: none; */
+    display: none;
 }
 .about-heading{
     font-weight: 900;
@@ -119,4 +119,24 @@ nav{
     line-height: 20px;
     text-align: justify;
     margin-bottom: 20px;
+}
+.video-description{
+    width: 80%;
+    margin: 0px auto;
+    font-size: 14px;
+    opacity: 70%;
+    line-height: 20px;
+    text-align: center;
+}
+.video > div{
+    border: 2px solid rgba(0, 0, 0, 0.102);
+    border-radius: 10px;
+    background: whitesmoke;
+    margin: 50px auto;
+    width: 60%;
+    padding: 20px;
+}
+.video div > iframe{
+    border-radius: 10px;
+    width: 100%;
 }
