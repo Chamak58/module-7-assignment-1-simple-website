@@ -64,7 +64,7 @@ nav{
 }
 .about{
     width: 70%;
-    margin: 20px auto;
+    margin: 50px auto;
     border: 1px solid skyblue;
     padding: 20px 60px;
     background: lightgreen;
@@ -120,6 +120,11 @@ nav{
     text-align: justify;
     margin-bottom: 20px;
 }
+.video{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: none;
+}
 .video-description{
     width: 80%;
     margin: 0px auto;
@@ -132,11 +137,76 @@ nav{
     border: 2px solid rgba(0, 0, 0, 0.102);
     border-radius: 10px;
     background: whitesmoke;
-    margin: 50px auto;
+    margin: 30px auto;
     width: 60%;
     padding: 20px;
 }
 .video div > iframe{
     border-radius: 10px;
     width: 100%;
+}
+.current-target-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 80%;
+    column-gap: 50px;
+    margin-bottom: 50px;
+}
+.ctc-1{
+    width: 30%;
+    background: rgb(246, 230, 206);
+    border-radius: 5px;
+    padding: 10px;
+}
+.ctc-2{
+    width: 30%;
+    background: rgb(176, 216, 240);
+    border-radius: 5px;
+    padding: 10px;
+}
+.ctc-3{
+    width: 30%;
+    background: rgb(246, 244, 240);
+    border-radius: 5px;
+    padding: 10px;
+}
+.ctc-description{
+    font-size: 12px;
+    opacity: 70%;
+    line-height: 16px;
+    text-align: justify;
+}
+.current-target-card  .ctc-1 > .card-link{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+.current-target-card  .ctc-2 > .card-link{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+.current-target-card  .ctc-3 > .card-link{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+.next-target-card{
+    width: 80%;
+    margin: 30px auto;
+}
+
+.next-target-card .ntc-1{
+    border: 2px solid rgba(19, 17, 17, 0.147);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.next-target-card .ntc-1 div > .card-link{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
 }
