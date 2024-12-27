@@ -4,6 +4,9 @@
 body{
     font-family: serif;
 }
+header{
+    /* display: none; */
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -18,7 +21,7 @@ nav{
     font-weight: 900;
 }
 
-.nav-btn{
+.btn-primary{
     width: 150px;
     height: 30px;
     font-size: 12px;
@@ -58,4 +61,62 @@ nav{
    padding: 10px;
    border-radius: 5px;
    margin-top: 20px;
+}
+.about{
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid skyblue;
+    padding: 20px 60px;
+    background: lightgreen;
+    border-radius: 5px;
+    /* display: none; */
+}
+.about-heading{
+    font-weight: 900;
+    text-align: center;
+    font-family: cursive;
+}
+.about-description{
+    font-size: 12px;
+    opacity: 70%;
+    line-height: 20px;
+    text-align: center;
+}
+.about-card-1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    background: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(255, 255, 255), lightgreen);
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.about-card-2{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+    background: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, rgb(255, 255, 255), lightgreen);
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.about-card-text{
+    width: 50%;
+}
+.about-card-img{
+    width: 30%;
+}
+.about-card-heading{
+    font-family: cursive;
+    opacity: 90%;
+    padding-top: 20px;
+}
+.about-card-description{
+    font-size: 12px;
+    opacity: 70%;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
 }
