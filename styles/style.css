@@ -4,9 +4,6 @@
 body{
     font-family: serif;
 }
-header{
-    display: none;
-}
 nav{
     display: flex;
     justify-content: space-between;
@@ -20,7 +17,6 @@ nav{
     font-size: 20px;
     font-weight: 900;
 }
-
 .btn-primary{
     width: 150px;
     height: 30px;
@@ -69,7 +65,6 @@ nav{
     padding: 20px 60px;
     background: lightgreen;
     border-radius: 5px;
-    display: none;
 }
 .about-heading{
     font-weight: 900;
@@ -123,7 +118,6 @@ nav{
 .video{
     margin-top: 50px;
     margin-bottom: 50px;
-    display: none;
 }
 .video-description{
     width: 80%;
@@ -206,7 +200,67 @@ nav{
 }
 
 .next-target-card .ntc-1 div > .card-link{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     color: black;
+}
+.support{
+    width: 80%;
+    margin: 50px auto;
+    background-image: url(/assets/handshake.jpg);
+    background-size: 100%;
+    padding: 50px;
+    border-radius: 10px;
+}
+.support-heading{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+.support-description{
+    width: 70%;
+    margin: 0px auto;
+    font-size: 12px;
+    opacity: 90%;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+form{
+    width: 70%;
+    margin: 0px auto;
+}
+form .support-text{
+   width: 70%;
+   height: 27px;
+   padding-left: 10px;
+   opacity: 90%;
+   border-radius: 5px;
+   border: none;
+}
+form .support-submit{
+    width: 20%;
+   height: 27px;
+   padding-left: 5px;
+   margin-left: 20px;
+   opacity: 70%;
+   border-radius: 5px;
+   border: none;
+}
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(244, 240, 240);
+    padding: 0px 6%;
+}
+.footer-link ul{
+    display: flex;
+    column-gap: 10px;
+}
+.footer-link ul li{
+    list-style: none;
+}
+.footer-link ul li a img{
+    width: 20px;
 }
